@@ -24,5 +24,5 @@ A simple and intuitive ToDo application built using **React.js** that lets users
 
 ---
 
-## 📂 Project Structure
+
 
