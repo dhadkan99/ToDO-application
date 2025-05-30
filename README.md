@@ -1,28 +1,53 @@
-# ✅ToDo Application
+# ✅ ToDo Application
 
-A simple and intuitive ToDo application built using **React.js** that lets users create, schedule, and manage their daily tasks efficiently.
+A sleek, intuitive ToDo app built with **Next.js** and **Tailwind CSS**, enabling users to manage their daily tasks seamlessly with a delightful UI.
 
 ---
 
 ## ✨ Features
 
-- 📝 Add new tasks
-- 🗓️ Schedule tasks with due dates
-- ✅ Mark tasks as completed
-- 🗑️ Delete tasks
-- 🔄 Persistent state using local storage (or database if extended)
-- 📱 Fully responsive and clean UI
+- 📝 Add new tasks with titles and descriptions
+- 📅 Select due dates via a beautiful calendar UI
+- ✅ Mark tasks as completed or undo them
+- 🗑️ Delete tasks anytime
+- 🔍 Filter tasks: All, Active, Today, Upcoming, Completed, Missed
+- 🔄 Local storage for persistent task saving
+- 💡 Edit task title and description
+- 🎨 Stylish, responsive, and mobile-friendly design
 
 ---
 
+## 🚀 Preview
+
+![image](https://github.com/user-attachments/assets/772e0bd7-8d5d-4155-b405-1d33dd06318e)
+
+---
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js (with Hooks)
-- **Styling:** CSS / Tailwind CSS
+- **Frontend:** React.js (Hooks, Components)
+- **Styling:** Tailwind CSS
+- **Icons & UI:** lucide-react, react-hot-toast, react-day-picker
 - **State Management:** useState, useEffect
-- **Optional:** Next.js for routing and SSR
+- **Optional Frameworks:** Next.js for app directory structure and routing
 
 ---
 
+## 📂 Folder Structure
+todoapp/
+├── src/
+│ ├── app/
+│ │ ├── layout.tsx
+│ │ ├── page.tsx
+│ ├── components/
+│ │ ├── AddTask.tsx
+│ │ ├── TodoList.tsx
+│ │ ├── TaskCard.tsx
+│ ├── types/
+│ │ └── task.ts
+├── public/
+├── package.json
 
+🧑‍💻 Author
+Made by Dhadkan
 
+© 2025 Dhadkan. All rights reserved.
