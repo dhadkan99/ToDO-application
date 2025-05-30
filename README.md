@@ -32,20 +32,23 @@ A sleek, intuitive ToDo app built with **Next.js** and **Tailwind CSS**, enablin
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
+
+```bash
 todoapp/
 ├── src/
-│ ├── app/
-│ │ ├── layout.tsx
-│ │ ├── page.tsx
-│ ├── components/
-│ │ ├── AddTask.tsx
-│ │ ├── TodoList.tsx
-│ │ ├── TaskCard.tsx
-│ ├── types/
-│ │ └── task.ts
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   ├── components/
+│   │   ├── AddTask.tsx
+│   │   ├── TodoList.tsx
+│   │   └── TaskCard.tsx
+│   ├── types/
+│   │   └── task.ts
 ├── public/
 ├── package.json
+
 
 🧑‍💻 Author
 Made by Dhadkan
